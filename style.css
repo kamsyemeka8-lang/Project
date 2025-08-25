@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bbb.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: larger;
+  
+  
+}
+header{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+li{
+    display: inline-block;
+   
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+     color:#9EA2B3;
+}
+a:visited{
+     color:#9EA2B3;
+}
+
+a:hover, a:focus{
+   color: #754EF9;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.items{
+    margin: 30px;
+     place-content: center;
+}
+.h11{
+    color: #754EF9;
+    font-size: larger;
+    }
+    .h22{
+        font-size: 70px;
+        color: #32333C;
+        margin-top: 50px;
+    }
+    .h33{
+        font-size: 20px;
+        color: #9DA1B2;
+    }
+
+    .abt{
+     margin-bottom: 50px;
+     color:#8A8FB8;
+    }
+        .abt2{
+                 color: #8A8FB8;
+        }
+    .content{
+       margin-left: 50px;
+        text-align: start;
+        margin-top: 50px;
+    }
+    .About{
+        background-color: white;
+       text-align: center;
+    }
+  
+    
+      .content2{
+        margin-top: 30px;
+        margin-left: 20px;
+        text-align: start;
+        color: #8A8FA3;
+        line-height: 1.5rem;
+    }
+    .contact{
+        text-align: start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+         margin: 0 auto ;
+    }
+    .contactme{
+        font-size: 30px;
+       
+    }
+    .myservices{
+        background-color: white;
+        margin-top: 200px;
+    }
+    .first{
+        margin-top: 50px;
+    }
+    .second{
+        margin-bottom: 20px;
+    }
+   .info{
+    color: #8A8FA3;
+    font-size: 20px;
+   }
+   .headerabt{
+    border: 1px dashed red;
+    font-size: larger;
+   }
+   .img{
+    border: solid blue;
+   }
+  
